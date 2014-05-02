@@ -1,0 +1,49 @@
+{
+  "name": "passport-delivery.com",
+  "version": "0.0.1",
+  "description": "OAuth 2.0 client module for delivery.com",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jihokoo/passport-delivery.com"
+  },
+  "bugs": {
+    "url": "http://github.com/jihokoo/passport-venmo/issues"
+  },
+  "keywords": [
+    "passport",
+    "Oauth2.0",
+    "delivery.com",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "Ji Ho Koo <jihokoo@gmail.com> (http://jihokoo.com/)",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/jihokoo/passport-delivery.com/issues"
+  },
+  "homepage": "https://github.com/jihokoo/passport-delivery.com",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^1.18.2",
+    "passport-oauth2": "^1.1.2"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jihokoo/passport-delivery.com",
+  "_id": "passport-delivery.com@0.0.1",
+  "_from": "passport-delivery.com@~0.0.1"
+}
