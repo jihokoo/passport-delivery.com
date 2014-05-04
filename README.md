@@ -17,6 +17,20 @@ account and OAuth 2.0 tokens. The strategy requires a `verify` callback, which a
 and calls `done` providing a user, as well as `options` specifying a `clientID`, `clientSecret`, and `callbackURL`.
     
     var DeliveryStrategy = require('passport-delivery.com').Strategy;
+  
+    passport.use(new DeliveryStrategy({
+      clientID: Delivery_CLIENT_ID,
+      clientSecret: Delivery_CLIENT_SECRET,
+      callbackURL: 'http://127.0.0.1:3000/auth/delivery/callback'
+      },
+      function(accessToken, refreshToken, profile, done) {
+        User.findOrCreate({ accessToken: accessToken }, function (err, user) {
+          return done(err, user);
+        });
+      }
+    ));
+
+    // If you are using MongoDB take a look at the below function
 
     passport.use(new DeliveryStrategy({
       clientID: Delivery_CLIENT_ID,
@@ -44,6 +58,8 @@ and calls `done` providing a user, as well as `options` specifying a `clientID`,
 
 #### Important: The `profile` Object
 Currently, Delivery.com does not support further queries to obtain personal information (fullName, userName, email) on the user via the conventional /v1/me endpoint. The `profile` object returned above is empty. The strategy will be updated to include personal information if Delivery.com updates their API to support to retrive user information. Actions can be made on behalf of the user in session by making queries with the accessToken in the Authorization HTTP header.
+    
+    res.setHeader('access_token', '<access_token goes here>');
 
 #### Authenticate Requests
 
