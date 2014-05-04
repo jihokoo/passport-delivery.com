@@ -1,6 +1,6 @@
 {
   "name": "passport-delivery.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OAuth 2.0 client module for delivery.com",
   "main": "./lib",
   "scripts": {

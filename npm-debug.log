@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/jihokoo/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+12 verbose folder ./
+13 info prepublish passport-delivery.com@0.0.1
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /Users/jihokoo/.npm/04cb2bca-tar.lock
+16 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+17 verbose lock tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz /Users/jihokoo/.npm/f7aa44d0-46426-0-7729486525058746-tmp-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+21 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+22 verbose tar unpack /var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+23 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+24 verbose lock tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package /Users/jihokoo/.npm/43abaf34-46426-0-7729486525058746-package.lock
+25 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+26 verbose lock tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz /Users/jihokoo/.npm/f7aa44d0-46426-0-7729486525058746-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry lib/index.js
+32 silly gunzTarPerm extractEntry lib/profile.js
+33 silly gunzTarPerm extractEntry lib/strategy.js
+34 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+35 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+36 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+37 silly lockFile f7aa44d0-46426-0-7729486525058746-tmp-tgz tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/tmp.tgz
+38 verbose tar pack [ '/Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz',
+38 verbose tar pack   '/var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package' ]
+39 verbose tarball /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+40 verbose folder /var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+41 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+42 verbose lock tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package /Users/jihokoo/.npm/43abaf34-46426-0-7729486525058746-package.lock
+43 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+44 verbose lock tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz /Users/jihokoo/.npm/d2f2d543-t-delivery-com-0-0-1-package-tgz.lock
+45 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+46 silly lockFile 43abaf34-46426-0-7729486525058746-package tar:///var/folders/2c/pbk10sb94nq416d141kmvg840000gn/T/npm-19050-asP7yYHM/1399043446426-0.7729486525058746/package
+47 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+48 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+49 silly lockFile d430f289-sport-delivery-com-0-0-1-package /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+50 verbose lock /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package /Users/jihokoo/.npm/d430f289-sport-delivery-com-0-0-1-package.lock
+51 silly lockFile d430f289-sport-delivery-com-0-0-1-package /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+52 silly lockFile d430f289-sport-delivery-com-0-0-1-package /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+53 verbose tar unpack /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+54 silly lockFile 9cd1c7a5-sport-delivery-com-0-0-1-package tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+55 verbose lock tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package /Users/jihokoo/.npm/9cd1c7a5-sport-delivery-com-0-0-1-package.lock
+56 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+57 verbose lock tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz /Users/jihokoo/.npm/d2f2d543-t-delivery-com-0-0-1-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry lib/index.js
+63 silly gunzTarPerm extractEntry lib/profile.js
+64 silly gunzTarPerm extractEntry lib/strategy.js
+65 silly lockFile 9cd1c7a5-sport-delivery-com-0-0-1-package tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+66 silly lockFile 9cd1c7a5-sport-delivery-com-0-0-1-package tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package
+67 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+68 silly lockFile d2f2d543-t-delivery-com-0-0-1-package-tgz tar:///Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz
+69 verbose chmod /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz 644
+70 verbose chown /Users/jihokoo/.npm/passport-delivery.com/0.0.1/package.tgz [ 501, 20 ]
+71 silly lockFile 0ee6c175- ./
+72 silly lockFile 0ee6c175- ./
+73 silly publish { name: 'passport-delivery.com',
+73 silly publish   version: '0.0.1',
+73 silly publish   description: 'OAuth 2.0 client module for delivery.com',
+73 silly publish   main: './lib',
+73 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+73 silly publish   repository:
+73 silly publish    { type: 'git',
+73 silly publish      url: 'http://github.com/jihokoo/passport-delivery.com' },
+73 silly publish   bugs: { url: 'https://github.com/jihokoo/passport-delivery.com/issues' },
+73 silly publish   keywords:
+73 silly publish    [ 'passport',
+73 silly publish      'Oauth2.0',
+73 silly publish      'delivery.com',
+73 silly publish      'auth',
+73 silly publish      'authn',
+73 silly publish      'authentication',
+73 silly publish      'identity' ],
+73 silly publish   author:
+73 silly publish    { name: 'Ji Ho Koo',
+73 silly publish      email: 'jihokoo@gmail.com',
+73 silly publish      url: 'http://jihokoo.com/' },
+73 silly publish   license: [ { type: 'MIT', url: 'http://www.opensource.org/licenses/MIT' } ],
+73 silly publish   homepage: 'https://github.com/jihokoo/passport-delivery.com',
+73 silly publish   dependencies:
+73 silly publish    { chai: '^1.9.1',
+73 silly publish      'chai-passport-strategy': '^0.2.0',
+73 silly publish      mocha: '^1.18.2',
+73 silly publish      'passport-oauth2': '^1.1.2' },
+73 silly publish   engines: { node: '>= 0.4.0' },
+73 silly publish   readmeFilename: 'README.md',
+73 silly publish   _id: 'passport-delivery.com@0.0.1',
+73 silly publish   _from: './',
+73 silly publish   readme: 'ERROR: No README data found!',
+73 silly publish   dist: { shasum: '1148fe8a0e66cc71e5b67794b1f3d26fd2fb2f66' } }
+74 verbose url raw passport-delivery.com
+75 verbose url resolving [ 'https://registry.npmjs.org/', './passport-delivery.com' ]
+76 verbose url resolved https://registry.npmjs.org/passport-delivery.com
+77 info trying registry request attempt 1 at 11:10:46
+78 http PUT https://registry.npmjs.org/passport-delivery.com
+79 http 403 https://registry.npmjs.org/passport-delivery.com
+80 error publish Failed PUT 403
+81 error Error: forbidden cannot modify pre-existing version: 0.0.1
+81 error old={"name":"passport-delivery.com","version":"0.0.1","description":"OAuth 2.0 client module for delivery.com","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"http://github.com/jihokoo/passport-delivery.com"},"keywords":["passport","Oauth2.0","delivery.com"],"author":{"name":"Ji Ho Koo","email":"jihokoo@gmail.com","url":"http://jihokoo.com/"},"license":"MIT","bugs":{"url":"https://github.com/jihokoo/passport-delivery.com/issues"},"homepage":"https://github.com/jihokoo/passport-delivery.com","_id":"passport-delivery.com@0.0.1","dist":{"shasum":"8c33138c48c23a88851a29a2e3c73c8c63deb4fa","tarball":"http://registry.npmjs.org/passport-delivery.com/-/passport-delivery.com-0.0.1.tgz"},"_from":"./","_npmVersion":"1.4.3","_npmUser":{"name":"jihokoo","email":"jihokoo@gmail.com"},"maintainers":[{"name":"jihokoo","email":"jihokoo@gmail.com"}]}
+81 error new={"name":"passport-delivery.com","version":"0.0.1","description":"OAuth 2.0 client module for delivery.com","main":"./lib","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"http://github.com/jihokoo/passport-delivery.com"},"bugs":{"url":"https://github.com/jihokoo/passport-delivery.com/issues"},"keywords":["passport","Oauth2.0","delivery.com","auth","authn","authentication","identity"],"author":{"name":"Ji Ho Koo","email":"jihokoo@gmail.com","url":"http://jihokoo.com/"},"license":[{"type":"MIT","url":"http://www.opensource.org/licenses/MIT"}],"homepage":"https://github.com/jihokoo/passport-delivery.com","dependencies":{"chai":"^1.9.1","chai-passport-strategy":"^0.2.0","mocha":"^1.18.2","passport-oauth2":"^1.1.2"},"engines":{"node":">= 0.4.0"},"readmeFilename":"README.md","_id":"passport-delivery.com@0.0.1","_from":"./","readme":"ERROR: No README data found!","dist":{"shasum":"1148fe8a0e66cc71e5b67794b1f3d26fd2fb2f66","tarball":"http://registry.npmjs.org/passport-delivery.com/-/passport-delivery.com-0.0.1.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"jihokoo","email":"jihokoo@gmail.com"},"maintainers":[{"name":"jihokoo","email":"jihokoo@gmail.com"}]}: passport-delivery.com
+81 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+81 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+81 error     at Request.EventEmitter.emit (events.js:98:17)
+81 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+81 error     at Request.EventEmitter.emit (events.js:117:20)
+81 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+81 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+81 error     at _stream_readable.js:920:16
+81 error     at process._tickCallback (node.js:415:13)
+82 error If you need help, you may report this *entire* log,
+82 error including the npm and node versions, at:
+82 error     <http://github.com/npm/npm/issues>
+83 error System Darwin 13.1.0
+84 error command "node" "/usr/local/bin/npm" "publish" "./"
+85 error cwd /Users/jihokoo/github/passport-delivery.com
+86 error node -v v0.10.26
+87 error npm -v 1.4.3
+88 verbose exit [ 1, true ]
