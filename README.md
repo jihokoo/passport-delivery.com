@@ -1,6 +1,6 @@
 # Passport-Delivery.com-OAuth
 
-[Passport](http://passportjs.org/)strategies for authenticating with[Delivery.com](https://www.delivery.com/) using OAuth 2.0
+[Passport](http://passportjs.org/) strategies for authenticating with [Delivery.com](https://www.delivery.com/) using OAuth 2.0
 
 This module lets you authenticate using Delivery.com in your Node.js applications.
 By plugging into Passport, Delivery.com authentication can be easily and unovtrusively  integrated into any application or framework that supports [Connect](http://senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/).
